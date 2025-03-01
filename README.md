@@ -1,10 +1,9 @@
-# Blog Website App with RBAC (React, Redux-Thunk)
+# Blog Website App (React, Redux-Thunk)
 
 ## Overview
 
-This app is a **React-based blog website** that integrates **Redux and Redux Thunk** for state management and asynchronous actions. It includes **Role-Based Access Control (RBAC)** to ensure secure access to different features. The system supports functionalities such as:
+This app is a **React-based blog website** that integrates **Redux and Redux Thunk** for state management and asynchronous actions. The system supports functionalities such as:
 
-- **Access Control**: Restrict actions based on user roles (Admin, Editor, User).
 - **Blog Management**: Create, edit, delete, and publish blog posts.
 - **Authentication & Security**: Secure login, registration, and user authentication.
 - **User Management**: Admins can manage users and roles.
@@ -13,16 +12,10 @@ This app is a **React-based blog website** that integrates **Redux and Redux Thu
 - **Rich Text Editor**: Support for formatting blog content.
 
 ## Features
-
-- **Role-Based Access Control (RBAC)**: Define and assign roles with specific permissions.
 - **User Authentication**: Secure login and registration.
 - **Blog System**:
   - Write, edit, and publish blog posts.
-  - Manage categories and tags.
   - Allow users to comment, like, and share posts.
-- **SEO Optimization**: Optimize content for search engines.
-- **Dark Mode Support**: Toggle between light and dark themes.
-- **Responsive Design**: Works across all devices.
 
 ## Getting Started
 
