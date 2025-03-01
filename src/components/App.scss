@@ -1,0 +1,30 @@
+ 
+.ant-layout.layout {
+  background-color:#F2F2F2;
+
+  .content {
+    background: #fcf9f4;
+    width: 80vw;
+    min-height: calc(100vh - 4rem);
+    padding: calc(4rem + 1rem) 2rem 2rem 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-self: center;
+    animation: fadeIn 1s ease-in;
+  }
+
+}
+
+ 
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

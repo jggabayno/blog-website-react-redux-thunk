@@ -1,0 +1,19 @@
+.ant-drawer.drawer {
+  margin-top: 64px;
+  .ant-menu {
+    background: transparent;
+    border: none;
+
+    .ant-menu-item {
+      color: #111;
+    }
+
+    .ant-menu-item-selected,
+    .ant-menu-item-active {
+      background: #fff;
+      a {
+        color: #111;
+      }
+    }
+  }
+}
